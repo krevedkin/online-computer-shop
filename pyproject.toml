@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "online-computer-shop"
+version = "0.1.0"
+description = "online shop pet-project"
+authors = ["igor <frakestolstm@gmail.com>"]
+readme = "README.md"
+packages = [{include = "online_computer_shop"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
